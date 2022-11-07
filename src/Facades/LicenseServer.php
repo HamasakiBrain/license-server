@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Facades;
+namespace HamasakiBrain\LicenseServer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

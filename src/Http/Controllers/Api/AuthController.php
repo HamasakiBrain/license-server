@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Http\Controllers\Api;
+namespace HamasakiBrain\LicenseServer\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
-use LaravelReady\LicenseServer\Models\IpAddress;
-use LaravelReady\UltimateSupport\Support\IpSupport;
-use LaravelReady\LicenseServer\Services\LicenseService;
-use LaravelReady\LicenseServer\Http\Controllers\BaseController;
+use HamasakiBrain\LicenseServer\Models\IpAddress;
+use HamasakiBrain\UltimateSupport\Support\IpSupport;
+use HamasakiBrain\LicenseServer\Services\LicenseService;
+use HamasakiBrain\LicenseServer\Http\Controllers\BaseController;
 
 class AuthController extends BaseController
 {

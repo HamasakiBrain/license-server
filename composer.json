@@ -1,5 +1,5 @@
 {
-    "name": "laravel-ready/license-server",
+    "name": "hamasakibrain/license-server",
     "description": "License server for Laravel",
     "type": "library",
     "license": "MIT",
@@ -12,13 +12,13 @@
     ],
     "authors": [
         {
-            "name": "EgoistDeveloper",
-            "email": "epsilonelittr@gmail.com"
+            "name": "hamasakibrain",
+            "email": "errordeletedurl@vk.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/laravel-ready/license-server/issues",
-        "source": "https://github.com/laravel-ready/license-server"
+        "issues": "https://github.com/hamasakibrain/license-server/issues",
+        "source": "https://github.com/hamasakibrain/license-server"
     },
     "require": {
         "php": "^8.0.2",
@@ -37,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelReady\\LicenseServer\\": "src/"
+            "HamasakiBrain\\LicenseServer\\": "src/"
         }
     },
     "autoload-dev": {
@@ -52,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelReady\\LicenseServer\\LicenseServerServiceProvider"
+                "HamasakiBrain\\LicenseServer\\LicenseServerServiceProvider"
             ],
             "aliases": {
-                "LicenseServer": "LaravelReady\\LicenseServer\\Facades\\LicenseServer"
+                "LicenseServer": "HamasakiBrain\\LicenseServer\\Facades\\LicenseServer"
             }
         }
     },

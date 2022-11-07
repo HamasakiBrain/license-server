@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Events;
+namespace HamasakiBrain\LicenseServer\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
-use LaravelReady\LicenseServer\Models\License;
+use HamasakiBrain\LicenseServer\Models\License;
 
 class LicenseChecked
 {

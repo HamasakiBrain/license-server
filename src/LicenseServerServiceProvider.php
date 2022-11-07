@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelReady\LicenseServer;
+namespace HamasakiBrain\LicenseServer;
 
 use Illuminate\Routing\Router;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelReady\LicenseServer\Support\DomainSupport;
-use LaravelReady\LicenseServer\Services\LicenseService;
-use LaravelReady\LicenseServer\Http\Middleware\DomainGuardMiddleware;
-use LaravelReady\LicenseServer\Http\Middleware\LicenseGuardMiddleware;
+use HamasakiBrain\LicenseServer\Support\DomainSupport;
+use HamasakiBrain\LicenseServer\Services\LicenseService;
+use HamasakiBrain\LicenseServer\Http\Middleware\DomainGuardMiddleware;
+use HamasakiBrain\LicenseServer\Http\Middleware\LicenseGuardMiddleware;
 
 use Laravel\Sanctum\Http\Middleware\CheckAbilities;
 

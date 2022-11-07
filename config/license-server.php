@@ -96,7 +96,7 @@ return [
          * Default: null
          */
         'license_validation' => [
-            LaravelReady\LicenseServer\Http\Controllers\Api\LicenseValidateController::class,
+            HamasakiBrain\LicenseServer\Http\Controllers\Api\LicenseValidateController::class,
             'licenseValidate'
         ]
     ],

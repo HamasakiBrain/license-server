@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Http\Controllers\Api;
+namespace HamasakiBrain\LicenseServer\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
 
-use LaravelReady\LicenseServer\Models\License;
-use LaravelReady\LicenseServer\Events\LicenseChecked;
-use LaravelReady\LicenseServer\Http\Controllers\BaseController;
+use HamasakiBrain\LicenseServer\Models\License;
+use HamasakiBrain\LicenseServer\Events\LicenseChecked;
+use HamasakiBrain\LicenseServer\Http\Controllers\BaseController;
 
 class LicenseValidationController extends BaseController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Exceptions;
+namespace HamasakiBrain\LicenseServer\Exceptions;
 
 use Exception;
 

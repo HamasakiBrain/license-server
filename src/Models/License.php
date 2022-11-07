@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Models;
+namespace HamasakiBrain\LicenseServer\Models;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Config;
@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 use Laravel\Sanctum\HasApiTokens;
 
-use LaravelReady\LicenseServer\Traits\Licensable;
+use HamasakiBrain\LicenseServer\Traits\Licensable;
 
 use App\Models\User;
 

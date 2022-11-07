@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Config;
 
-use LaravelReady\LicenseServer\Http\Controllers\Api\AuthController;
-use LaravelReady\LicenseServer\Http\Controllers\Api\LicenseValidationController;
+use HamasakiBrain\LicenseServer\Http\Controllers\Api\AuthController;
+use HamasakiBrain\LicenseServer\Http\Controllers\Api\LicenseValidationController;
 
 /**
  * Public routes for License Server connector package

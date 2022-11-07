@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Traits;
+namespace HamasakiBrain\LicenseServer\Traits;
 
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 
-use LaravelReady\LicenseServer\Models\LicensableProduct;
+use HamasakiBrain\LicenseServer\Models\LicensableProduct;
 
 trait Licensable
 {

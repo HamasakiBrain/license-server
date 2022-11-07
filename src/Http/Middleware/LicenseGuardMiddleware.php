@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Http\Middleware;
+namespace HamasakiBrain\LicenseServer\Http\Middleware;
 
 use Closure;
 

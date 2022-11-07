@@ -68,7 +68,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-use LaravelReady\LicenseServer\Traits\Licensable;
+use HamasakiBrain\LicenseServer\Traits\Licensable;
 
 class Product extends Model
 {
@@ -92,7 +92,7 @@ class Product extends Model
 
 Add in your namespace list:
 
-`use LaravelReady\LicenseServer\Services\LicenseService;`
+`use HamasakiBrain\LicenseServer\Services\LicenseService;`
 
 and product model
 
@@ -125,7 +125,7 @@ $license = LicenseService::addLicense($product, null, $user->id, null, false, tr
 
 - If you provide domain, then the license will be added to the domain. If you don't provide domain, then the license will be added to the user (*in this case user id is required.*).
 - Other parameters are optional and do not forget to configure configs.
-- This method returns `LaravelReady\LicenseServer\Models\License` model.
+- This method returns `HamasakiBrain\LicenseServer\Models\License` model.
 - All license keys are in UUID format.
 
 ### getLicenseBy*
@@ -178,8 +178,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
 
-use LaravelReady\LicenseServer\Models\License;
-use LaravelReady\LicenseServer\Events\LicenseChecked;
+use HamasakiBrain\LicenseServer\Models\License;
+use HamasakiBrain\LicenseServer\Events\LicenseChecked;
 
 class LicenseController extends Controller
 {
@@ -262,14 +262,14 @@ You can send custom data with connector and on the license server-side, you can 
 php artisan make:listener LicenseCheckedListener --event=LicenseChecked
 ```
 
-Add class `LicenseChecked` with `LaravelReady\LicenseServer\Events\LicenseChecked` namespace. You can retrieve custom data from event.
+Add class `LicenseChecked` with `HamasakiBrain\LicenseServer\Events\LicenseChecked` namespace. You can retrieve custom data from event.
 
 ```php
 <?php
 
 namespace App\Listeners;
 
-use LaravelReady\LicenseServer\Events\LicenseChecked;
+use HamasakiBrain\LicenseServer\Events\LicenseChecked;
 
 class LicenseCheckedListener
 {

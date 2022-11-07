@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelReady\LicenseServer\Services;
+namespace HamasakiBrain\LicenseServer\Services;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Config;
 
-use LaravelReady\LicenseServer\Models\License;
-use LaravelReady\LicenseServer\Support\DomainSupport;
-use LaravelReady\LicenseServer\Exceptions\LicenseException;
+use HamasakiBrain\LicenseServer\Models\License;
+use HamasakiBrain\LicenseServer\Support\DomainSupport;
+use HamasakiBrain\LicenseServer\Exceptions\LicenseException;
 
 class LicenseService
 {
