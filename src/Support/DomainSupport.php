@@ -46,7 +46,7 @@ class DomainSupport
             return true;
         }
 
-        $response = Http::get('https://data.iana.org/TLD/tlds-alpha-by-domain.txt');
+    $response = Http::withoutVerifying()->get('https://data.iana.org/TLD/tlds-alpha-by-domain.txt');
 
         if ($response->status() === 200) {
             return Storage::put(self::$publicSuffixList, $response->body());
